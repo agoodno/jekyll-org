@@ -1,8 +1,11 @@
 source "http://rubygems.org"
+
+ruby file: ".ruby-version"
+
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
-gem 'org-ruby' , '>= 0.9.12'
+gem 'org-ruby', github: 'agoodno/org-ruby', branch: 'master'
 gem 'jekyll', '>= 3.5.0'
 gem 'json', github: 'flori/json', branch: 'v1.8'
 
